@@ -2,45 +2,49 @@
 
 PROTS KHRYSTYNA AND LAPCHUK SOLOMIA
 
-**School Grades Management System** – це десктопна аплікація для управління учнями, предметами, вчителями та оцінками у школі. Програма розроблена на платформі **.NET** із використанням **WPF** для графічного інтерфейсу користувача. Вона дозволяє вести облік успішності учнів, створювати звіти та переглядати статистику навчальних досягнень без використання бази даних, зберігаючи всі дані локально у файлах.
+# School Grades Management System
 
-Метою цього проєкту є полегшення роботи шкільного персоналу з учнівськими даними, автоматизація обчислення середніх балів, формування рейтингів класів та створення табелів учнів у зручному форматі. Програма також дозволяє швидко знаходити потрібного учня чи предмет завдяки функції пошуку.
+**Developed by:** Prots Khrystyna and Lapchuk Solomia
 
-## Основні функціональні можливості
+The School Grades Management System is a desktop application for managing students, subjects, teachers, and grades in a school. The program is developed on the .NET platform using WPF for the graphical user interface. It enables tracking student performance, generating reports, and viewing educational achievement statistics without using a database, storing all data locally in files.
 
-1. **Управління учнями**
-   - Додавання нових учнів із зазначенням імені, прізвища та класу.
-   - Редагування та видалення даних про учнів.
-   - Пошук учнів за різними критеріями, такими як ім’я, прізвище або клас.
-   - Збереження інформації локально, що дозволяє працювати без підключення до бази даних.
+The goal of this project is to facilitate the work of school staff with student data, automate the calculation of average grades, generate class rankings, and create student report cards in a convenient format. The program also allows for quick searching of specific students or subjects through its search functionality.
 
-2. **Предмети та вчителі**
-   - Створення та редагування списку шкільних предметів.
-   - Призначення вчителів на конкретні предмети.
-   - Можливість додавати нових вчителів та редагувати їхні дані.
-   - Організація логіки «вчитель → предмет → клас», що спрощує ведення журналу оцінок.
+## Main Features
 
-3. **Журнал оцінок**
-   - Додавання оцінок для кожного учня за конкретним предметом.
-   - Редагування та видалення оцінок при потребі.
-   - Автоматичне обчислення середнього балу учня по предмету та загального середнього бала по класу.
-   - Візуалізація оцінок у зручному форматі таблиць у WPF.
+1. **Student Management**
+   - Adding new students with specified first name, last name, and class.
+   - Editing and deleting student data.
+   - Searching for students by various criteria such as first name, last name, or class.
+   - Local information storage, allowing operation without a database connection.
 
-4. **Звіти та статистика**
-   - Формування табелів учнів із усіма оцінками та середніми балами.
-   - Рейтинг учнів у класі за успішністю.
-   - Можливість експорту звітів у популярні формати, такі як CSV або текстові файли, для подальшого використання або друку.
-   - Статистика успішності за предметами та класами.
+2. **Subjects and Teachers**
+   - Creating and editing lists of school subjects.
+   - Assigning teachers to specific subjects.
+   - Ability to add new teachers and edit their information.
+   - Organization of the "teacher → subject → class" logic, simplifying grade book management.
 
-5. **Локальне зберігання даних**
-   - Усі дані зберігаються у локальних файлах або у пам’яті програми.
-   - Це дозволяє запускати програму без додаткових налаштувань серверів чи баз даних.
-   - Легке резервне копіювання та відновлення даних.
+3. **Grade Book**
+   - Adding grades for each student in specific subjects.
+   - Editing and deleting grades as needed.
+   - Automatic calculation of a student's average grade per subject and the overall class average.
+   - Visualization of grades in convenient table formats within WPF.
 
-## Використані технології
+4. **Reports and Statistics**
+   - Generating student report cards with all grades and average scores.
+   - Student rankings within classes based on performance.
+   - Ability to export reports to popular formats such as CSV or text files for further use or printing.
+   - Performance statistics by subjects and classes.
 
-- **WPF (.NET)** – для створення сучасного та зручного графічного інтерфейсу користувача, включаючи таблиці, форми та візуальні елементи.
-- **Файлова система / серіалізація** – для локального збереження даних учнів, оцінок та звітів без використання бази даних.
-- **Entity Framework (EF Core)** – для роботи з об’єктами та управління даними у пам’яті.
-- **ADO.NET** – для демонстрації роботи з SQL-запитами та локальними даними.
-- **C# (.NET)** – логіка програми та обробка даних.
+5. **Local Data Storage**
+   - All data is stored in local files or in the program's memory.
+   - This allows the program to run without additional server or database configuration.
+   - Easy backup and data recovery.
+
+## Technologies Used
+
+- **WPF (.NET)** – for creating a modern and user-friendly graphical interface, including tables, forms, and visual elements.
+- **File System / Serialization** – for local storage of student data, grades, and reports without using a database.
+- **Entity Framework (EF Core)** – for working with objects and managing data in memory.
+- **ADO.NET** – for demonstrating work with SQL queries and local data.
+- **C# (.NET)** – program logic and data
