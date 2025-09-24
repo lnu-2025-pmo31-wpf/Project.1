@@ -1,4 +1,3 @@
 School Grades Management System
 
-
 PROTS KHRYSTYNA AND LAPCHUK SOLOMIA
